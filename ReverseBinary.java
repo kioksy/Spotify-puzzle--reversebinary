@@ -24,5 +24,5 @@ public class ReverseBinary{
 			catch(java.io.IOException e){
                 System.out.println("Java IO Exception thrown");
 			}
-		}
 	}
+}
