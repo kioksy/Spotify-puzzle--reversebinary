@@ -1,10 +1,14 @@
+import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
 public class ReverseBinary{
     
     private static int biggestNumber = 1000000000;
 	
-	public static void main(String[] args) throws java.io.IOException{
+	public static void main(String[] args) throws IOException{
 			try{
-				java.io.BufferedReader stdin = new java.io.BufferedReader(new java.io.InputStreamReader(System.in));
+				BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
 			    String readLine=stdin.readLine();
 				int numb = Integer.parseInt(readLine);
 					if(numb>0 && numb<=biggestNumber){
